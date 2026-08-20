@@ -197,6 +197,52 @@ st.markdown(
 
 
     /* ========================================================
+       EXPANDER
+       ======================================================== */
+
+    div[data-testid="stExpander"] {
+        background-color: #FFFFFF !important;
+        border: 1px solid #E2E8F0 !important;
+        border-radius: 10px !important;
+    }
+
+    div[data-testid="stExpander"] summary {
+        background-color: #EFF6FF !important;
+        color: #1E3A8A !important;
+        border-radius: 10px !important;
+    }
+
+    div[data-testid="stExpander"] summary p {
+        color: #1E3A8A !important;
+        font-weight: 600 !important;
+    }
+
+
+    /* ========================================================
+       TABLE
+       ======================================================== */
+
+    div[data-testid="stTable"] {
+        background-color: #FFFFFF !important;
+    }
+
+    div[data-testid="stTable"] table {
+        background-color: #FFFFFF !important;
+        color: #0F172A !important;
+    }
+
+    div[data-testid="stTable"] th {
+        background-color: #EFF6FF !important;
+        color: #1E3A8A !important;
+    }
+
+    div[data-testid="stTable"] td {
+        background-color: #FFFFFF !important;
+        color: #334155 !important;
+    }
+
+
+    /* ========================================================
        DIVIDER AND FOOTER
        ======================================================== */
 
@@ -265,10 +311,6 @@ with input_col:
 
     col1, col2 = st.columns(2)
 
-    # --------------------------------------------------------
-    # COLUMN 1
-    # --------------------------------------------------------
-
     with col1:
 
         country = st.selectbox(
@@ -291,11 +333,6 @@ with input_col:
                 "Lead"
             ]
         )
-
-
-    # --------------------------------------------------------
-    # COLUMN 2
-    # --------------------------------------------------------
 
     with col2:
 
@@ -328,7 +365,6 @@ with input_col:
 
     else:
         experience_tier = "Highly Experienced"
-
 
     st.info(
         f"Experience Tier: {experience_tier}"
@@ -464,6 +500,11 @@ with result_col:
             "and click Predict Salary."
         )
 
+
+# ============================================================
+# METHODOLOGY AND DATA NOTES
+# ============================================================
+
 with st.expander("ℹ️ Methodology and Data Notes"):
 
     st.markdown(
@@ -512,54 +553,9 @@ with st.expander("ℹ️ Methodology and Data Notes"):
     })
 
     st.table(
-    exchange_rate_table
-)
+        exchange_rate_table
+    )
 
-
-/* ========================================================
-   EXPANDER
-   ======================================================== */
-
-div[data-testid="stExpander"] {
-    background-color: #FFFFFF !important;
-    border: 1px solid #E2E8F0 !important;
-    border-radius: 10px !important;
-}
-
-div[data-testid="stExpander"] summary {
-    background-color: #EFF6FF !important;
-    color: #1E3A8A !important;
-    border-radius: 10px !important;
-}
-
-div[data-testid="stExpander"] summary p {
-    color: #1E3A8A !important;
-    font-weight: 600 !important;
-}
-
-
-/* ========================================================
-   TABLE
-   ======================================================== */
-
-div[data-testid="stTable"] {
-    background-color: #FFFFFF !important;
-}
-
-div[data-testid="stTable"] table {
-    background-color: #FFFFFF !important;
-    color: #0F172A !important;
-}
-
-div[data-testid="stTable"] th {
-    background-color: #EFF6FF !important;
-    color: #1E3A8A !important;
-}
-
-div[data-testid="stTable"] td {
-    background-color: #FFFFFF !important;
-    color: #334155 !important;
-}
 
 # ============================================================
 # FOOTER
