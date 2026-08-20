@@ -1,0 +1,11 @@
+metric,value
+source_rows,4653
+source_columns,17
+missing_salary_avg,2354
+model_ready_rows,2256
+unlabeled_scoring_rows,2354
+salary_review_rows,43
+exact_duplicate_rows,0
+near_duplicate_group_rows,77
+invalid_experience_over_30,61
+rows_with_parsed_skills,1409

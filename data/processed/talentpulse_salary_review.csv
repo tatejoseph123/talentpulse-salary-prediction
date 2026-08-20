@@ -1,0 +1,44 @@
+job_id,job_title,company,country,salary_min_local,salary_max_local,salary_avg_local,currency,salary_avg_usd,salary_quality_status
+5552722462,machine learning engineer,Innover Systems,India,400000.0,1000000.0,700000.0,INR,8366.200549778892,unit_review
+1155088318,machine learning engineer,Tradeindia.com - Infocom Network,India,400000.0,1000000.0,700000.0,INR,8366.200549778892,unit_review
+1171507734,machine learning engineer,UnFound,India,500000.0,500000.0,500000.0,INR,5975.857535556353,unit_review
+2549478979,machine learning engineer,Artifex HR,India,0.0,800000.0,400000.0,INR,4780.686028445081,invalid_bounds
+2658062217,machine learning engineer,CES Information Technologies,India,0.0,1500000.0,750000.0,INR,8963.786303334527,invalid_bounds
+2475263628,machine learning engineer,Hammoq,India,0.0,900000.0,450000.0,INR,5378.271782000717,invalid_bounds
+2383302553,machine learning engineer,SIlverPeople Consulting,India,0.0,2700000.0,1350000.0,INR,16134.815346002151,invalid_bounds
+2177266537,machine learning engineer,Marktine,India,0.0,1500000.0,750000.0,INR,8963.786303334527,invalid_bounds
+1171508972,machine learning engineer,Carmozo,India,300000.0,500000.0,400000.0,INR,4780.686028445081,unit_review
+1463797734,machine learning engineer,Aikon Labs Private Limited,India,100000.0,800000.0,450000.0,INR,5378.271782000717,unit_review
+5692179005,business analyst,ATLANTA SYSTEMS PVT LTD,India,250000.0,300000.0,275000.0,INR,3286.721644555994,unit_review
+5642958911,business analyst,Quesrow Research and Consulting Pvt. Ltd,India,60000.0,60000.0,60000.0,INR,717.1029042667623,unit_review
+5694657073,business analyst,CCTECH,India,100000.0,150000.0,125000.0,INR,1493.9643838890881,unit_review
+5703080702,business analyst,Masflair,India,700000.0,900000.0,800000.0,INR,9561.372056890163,unit_review
+1509166858,business analyst,Lincode Labs India Pvt Ltd,India,400000.0,800000.0,600000.0,INR,7171.029042667623,unit_review
+5040689008,business analyst,ProPMO Services Private Limited,India,400000.0,800000.0,600000.0,INR,7171.029042667623,unit_review
+3166190744,business analyst,PopcornApps,India,200000.0,1000000.0,600000.0,INR,7171.029042667623,unit_review
+1788701062,business analyst,Presidency University,India,0.0,500000.0,250000.0,INR,2987.9287677781763,invalid_bounds
+3900854302,business analyst,Ebizz Infotech,India,120000.0,300000.0,210000.0,INR,2509.860164933668,unit_review
+5633959869,business analyst,Novrelease,India,35000.0,50000.0,42500.0,INR,507.9478905222899,unit_review
+2609531597,business analyst,Texila American University,India,0.0,700000.0,350000.0,INR,4183.100274889446,invalid_bounds
+5701704149,business analyst,Refining Skills Academy,India,420000.0,600000.0,510000.0,INR,6095.374686267479,unit_review
+4755979420,business analysts,Money Honey Financial Services Private Limited,India,300000.0,1000000.0,650000.0,INR,7768.614796223258,unit_review
+1171506747,business analyst,Ixora Global Services,India,12.0,144.0,78.0,INR,0.932233775546791,unit_review
+4870523495,data scientist,V15P1Talonnn,Canada,4500.0,6000.0,5250.0,CAD,3832.1167883211674,unit_review
+5703188331,"data analyst – etl, sql",Astra North Infoteck Inc.,Canada,10000.0,,10000.0,CAD,7299.2700729927,invalid_bounds
+5702814416,senior business data analyst,Loblaw Companies,Canada,0.0,82.0,41.0,CAD,29.92700729927007,invalid_bounds
+5707869833,data engineer,SereneAid,Canada,10000.0,,10000.0,CAD,7299.2700729927,invalid_bounds
+5709195766,azure data engineer,Astra North Infoteck Inc.,Canada,10000.0,,10000.0,CAD,7299.2700729927,invalid_bounds
+5699755645,machine learning engineer,Astra North Infoteck Inc.,Canada,10000.0,,10000.0,CAD,7299.2700729927,invalid_bounds
+5470758785,staff machine learning software engineer   agentic ai,Loblaw Companies,Canada,0.0,195.0,97.5,CAD,71.16788321167883,invalid_bounds
+5494765269,business analyst,Sapsol Technologies Inc,Canada,75.0,80.0,77.5,CAD,56.569343065693424,unit_review
+5710999398,business analyst,Maarut,Canada,2080.0,2080.0,2080.0,CAD,1518.2481751824816,unit_review
+5699878605,"business analyst, temporary",Aviso Wealth,Canada,75.0,80.0,77.5,CAD,56.569343065693424,unit_review
+5707601819,data analytics and data science intern   remote,Business Web Solutions,Australia,200.0,200.0,200.0,AUD,131.57894736842104,unit_review
+5650880855,data governance analyst,Michael Page,Australia,9.0,11.0,10.0,AUD,6.578947368421052,unit_review
+5695783495,data engineer,Torch Professional Services Pty Ltd,Australia,1000.0,1000.0,1000.0,AUD,657.8947368421052,unit_review
+5699395561,senior data engineer,Launch Recruitment,Australia,0.0,260000.0,130000.0,AUD,85526.31578947368,invalid_bounds
+5709019205,senior software engineer   mobile sdk development,Balance Recruitment,Australia,850.0,900.0,875.0,AUD,575.6578947368421,unit_review
+5688818015,business analyst,FourQuarters,Australia,1000.0,1000.0,1000.0,AUD,657.8947368421052,unit_review
+5680409278,ai business analyst,Onpoint 365,Australia,65.0,74.0,69.5,AUD,45.723684210526315,unit_review
+5685866143,business analyst   malaysia,RSGx,Australia,8000.0,8000.0,8000.0,AUD,5263.157894736842,unit_review
+5707632084,senior business analyst,Launch Recruitment,Australia,0.0,900.0,450.0,AUD,296.05263157894734,invalid_bounds
