@@ -91,30 +91,44 @@ st.markdown(
        SELECT BOXES
        ======================================================== */
 
-    div[data-baseweb="select"] > div {
+    div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {
         background-color: #FFFFFF !important;
+        color: #0F172A !important;
         border: 1px solid #CBD5E1 !important;
         border-radius: 8px !important;
+    }
+
+    div[data-testid="stSelectbox"] div[data-baseweb="select"] span {
         color: #0F172A !important;
     }
 
-    div[data-baseweb="select"] span {
-        color: #0F172A !important;
-    }
-
-    div[data-baseweb="select"] svg {
+    div[data-testid="stSelectbox"] svg {
         fill: #475569 !important;
     }
 
 
-    /* ========================================================
-       NUMBER INPUT
-       ======================================================== */
+   /* ========================================================
+        NUMBER INPUT
+      ======================================================== */
 
     div[data-testid="stNumberInput"] input {
         background-color: #FFFFFF !important;
         color: #0F172A !important;
+    }
+
+    div[data-testid="stNumberInput"] > div {
+        background-color: #FFFFFF !important;
         border-color: #CBD5E1 !important;
+    }
+
+    div[data-testid="stNumberInput"] button {
+        background-color: #F8FAFC !important;
+        color: #334155 !important;
+        border-color: #CBD5E1 !important;
+    }
+
+    div[data-testid="stNumberInput"] button svg {
+        fill: #334155 !important;
     }
 
 
@@ -124,6 +138,20 @@ st.markdown(
 
     div[data-testid="stCheckbox"] label p {
         color: #334155 !important;
+    }
+
+    div[data-testid="stCheckbox"] div[data-testid="stCheckbox"] {
+        background-color: transparent !important;
+    }
+
+    div[data-testid="stCheckbox"] [role="checkbox"] {
+        background-color: #FFFFFF !important;
+        border: 1px solid #94A3B8 !important;
+    }
+
+    div[data-testid="stCheckbox"] [aria-checked="true"] {
+        background-color: #2563EB !important;
+        border-color: #2563EB !important;
     }
 
 
@@ -515,7 +543,7 @@ with st.expander("ℹ️ Methodology and Data Notes"):
         **2024 annual average official exchange rates**.
 
         **Source:** World Bank World Development Indicators  
-        **Indicator:** `PA.NUS.FCRF` — Official exchange rate  
+        **Indicator:** **PA.NUS.FCRF** — Official exchange rate  
         **Definition:** Local Currency Units (LCU) per US$, period average  
         **Underlying source:** IMF International Financial Statistics
         """
