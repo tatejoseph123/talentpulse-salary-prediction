@@ -4,7 +4,7 @@ An end-to-end machine-learning capstone for predicting annual technology-job sal
 
 ## 🚀 Live Application
 
-[Lanuch the Tech Job Salary Predictor ] (https://tatejoseph123-talentpulse-salary-p-salary-prediction-app-i68iod.streamlit.app/)
+[Launch the Tech Job Salary Predictor ](https://tatejoseph123-talentpulse-salary-p-salary-prediction-app-i68iod.streamlit.app/)
 
 ## Results
 
