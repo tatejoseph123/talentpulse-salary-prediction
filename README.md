@@ -2,6 +2,10 @@
 
 An end-to-end machine-learning capstone for predicting annual technology-job salaries in USD. The project validates and cleans 4,653 job postings, engineers leakage-safe features, compares three regression algorithms, tunes the strongest model, and exposes the final pipeline through Streamlit.
 
+## 🚀 Live Application
+
+[Lanuch the Tech Job Salary Predictor ] (https://tatejoseph123-talentpulse-salary-p-salary-prediction-app-i68iod.streamlit.app/)
+
 ## Results
 
 | Metric | Untouched 20% test set |
